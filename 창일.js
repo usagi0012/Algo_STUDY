@@ -1,4 +1,4 @@
-// 이건 41번이야
+// 이건 41번 이상한 문자 만들기
 
 let s = "why function unactive";
 
