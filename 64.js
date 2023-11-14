@@ -1,7 +1,6 @@
 let n = 5;
 let lost = [2, 4];
-let reserve = [1, 3, 5];
-console.log(reserve.splice());
+let reserve = [3, 5];
 
 function solution(n, lost, reserve) {
     // 여벌 옷 생성
