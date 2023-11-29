@@ -19,8 +19,6 @@ function solution(n, lost, reserve) {
             lost.splice(a, 1);
         }
     }
-    console.log(reserve2);
-    console.log(lost);
     // +-1 중 하나만 있는 애들부터 처리해주기
     // reserve2에서 lost+1값 먼저차감
     for (a = lost.length - 1; a >= 0; a--) {
