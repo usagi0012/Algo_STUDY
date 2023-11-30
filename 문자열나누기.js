@@ -1,24 +1,4 @@
 function solution(s) {
-  var answer = 0;
-  var first = 1;
-  var other = 0;
-  for (let i = 1; i < s.length; i++) {
-    if (s[0] == s[i]) {
-      first++;
-    }
-    if (s[0] != s[i]) {
-      other++;
-    }
-    if (first == other) {
-      answer++;
-      s.substr(first + other);
-      // return solution(s);
-    }
-  }
-  return answer;
-}
-
-function solution(s) {
   var arrS = s.split("");
   var slicedS = [];
   var answer = countS(arrS, slicedS);
